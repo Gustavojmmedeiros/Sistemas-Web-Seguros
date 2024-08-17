@@ -1,0 +1,11 @@
+127.0.0.1 - - [07/Aug/2024:18:41:26 -0300] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [07/Aug/2024:18:41:52 -0300] "GET / HTTP/1.1" 404 763
+127.0.0.1 - - [07/Aug/2024:18:42:26 -0300] "GET /projetosoa/ws/calculadora HTTP/1.1" 200 750
+127.0.0.1 - - [07/Aug/2024:18:43:01 -0300] "GET /projetosoa/ws/calculadora?wsdl HTTP/1.1" 200 1833
+127.0.0.1 - - [07/Aug/2024:18:45:42 -0300] "GET /projetosoa/ws/calculadora?wsdl HTTP/1.1" 200 1833
+127.0.0.1 - - [07/Aug/2024:18:47:55 -0300] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [07/Aug/2024:18:48:55 -0300] "POST /projetosoa/ws/calculadora HTTP/1.1" 200 231
+127.0.0.1 - - [07/Aug/2024:18:50:29 -0300] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [07/Aug/2024:18:50:46 -0300] "GET /projetosoa/ws/calculadora?wsdl HTTP/1.1" 200 2481
+127.0.0.1 - - [07/Aug/2024:18:51:21 -0300] "GET /projetosoa/ws/calculadora?wsdl HTTP/1.1" 200 2481
+127.0.0.1 - - [07/Aug/2024:18:51:43 -0300] "POST /projetosoa/ws/calculadora HTTP/1.1" 200 239
