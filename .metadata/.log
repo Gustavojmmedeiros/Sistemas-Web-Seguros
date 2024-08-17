@@ -7933,3 +7933,8 @@ java.lang.Exception: File not found: C:\Workspace\sisrh\pom.xml.
 
 !ENTRY org.eclipse.jdt.core 4 1006 2024-08-17 17:04:05.649
 !MESSAGE C:\Users\Gustavo Medeiros\.m2\repository\javax\servlet\javax.servlet-api\3.0.1\javax.servlet-api-3.0.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.core.resources 2 2 2024-08-17 17:05:09.427
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2024-08-17 17:05:09.427
+!MESSAGE The project description file (.project) for 'sisrh' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
