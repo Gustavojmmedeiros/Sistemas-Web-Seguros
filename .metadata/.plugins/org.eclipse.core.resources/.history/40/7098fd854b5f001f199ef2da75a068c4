@@ -1,0 +1,17 @@
+package seguranca;
+
+import java.math.BigInteger;
+import java.security.MessageDigest;
+import java.sql.*;
+import java.util.*;
+
+import javax.xml.ws.WebServiceContext;
+import javax.xml.ws.handler.MessageContext;
+
+import sisrh.banco.Banco;
+import sisrh.exception.SISRHException;
+
+
+public class Autenticador {
+
+}
