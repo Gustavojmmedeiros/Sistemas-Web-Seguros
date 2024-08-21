@@ -30,10 +30,56 @@ public class ServicoEmpregado {
 		Empregados empregados = new Empregados();
 		
 		List<Empregado> lista = Banco.listarEmpregados();
+		
 		for(Empregado emp: lista) {
 			empregados.getEmpregados().add(emp);
 		}
 		
 		return empregados;
 	}
+	
+	public Empregados listarAtivos() throws Exception {
+		
+		Autenticador.autenticarUsuarioSenha(context);
+		
+		Empregado empregado = new Empregado();
+		Empregados empregados = new Empregados();
+		
+		List<Empregado> lista = Banco.listarEmpregados();
+		
+		if (empregado.getDesligamento() == null) {
+			for(Empregado emp: lista) {
+				empregados.getEmpregados().add(emp);
+			}
+		}
+		
+		return empregados;
+	}
+	
+	public Empregados listarInativos() throws Exception {
+		
+		Autenticador.autenticarUsuarioSenha(context);
+		
+		Empregado empregado = new Empregado();
+		Empregados empregados = new Empregados();
+		
+		List<Empregado> lista = Banco.listarEmpregados();
+		
+		if (empregado.getDesligamento() != null) {
+			for(Empregado emp: lista) {
+				empregados.getEmpregados().add(emp);
+			}
+		}
+		
+		return empregados;
+	}
 }
+
+
+
+
+
+
+
+
+
